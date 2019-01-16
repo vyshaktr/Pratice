@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="academy.Listner"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="validating(failed)">
+    <classes>
+      <class name="academy.HomePe">
+        <methods>
+          <include name="clobro"/>
+          <include name="ind"/>
+        </methods>
+      </class> <!-- academy.HomePe -->
+      <class name="academy.Valida">
+        <methods>
+          <include name="clobro"/>
+          <include name="ind"/>
+          <include name="basepval"/>
+        </methods>
+      </class> <!-- academy.Valida -->
+    </classes>
+  </test> <!-- validating(failed) -->
+</suite> <!-- Failed suite [Suite] -->

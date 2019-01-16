@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="academy.Listner"></listener>
+<listener class-name="resources.ExtentReporterNG"></listener>
+</listeners>
+  <test name="validating">
+    <classes>
+     <class name="academy.Valida"/>
+     </classes>
+     </test>
+     <test name="login diff users">
+     <classes>
+      <class name="academy.HomePe"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
