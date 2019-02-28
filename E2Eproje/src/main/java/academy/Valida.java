@@ -29,7 +29,7 @@ public class Valida extends Base {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		LandPag L = new LandPag(driver);
-		//Assert.assertEquals(L.title().getText(), "ICICI Offer Ends In");
+		Assert.assertEquals(L.title().getText(), "ICICI Offer Ends In");
 		Assert.assertTrue(L.visi().isDisplayed());
 	}
 	

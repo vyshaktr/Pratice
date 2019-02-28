@@ -1,35 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="42226" started-at="2019-01-16T05:08:31Z" finished-at="2019-01-16T05:09:13Z">
+  <suite name="Suite" duration-ms="55134" started-at="2019-02-13T13:08:02Z" finished-at="2019-02-13T13:08:57Z">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucuopti.TestRun@67b92f0a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="validating" duration-ms="42226" started-at="2019-01-16T05:08:31Z" finished-at="2019-01-16T05:09:13Z">
-      <class name="cucuopti.TestRun">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucuopti.TestRun@67b92f0a]" name="setUpClass" is-config="true" duration-ms="1700" started-at="2019-01-16T10:38:31Z" finished-at="2019-01-16T10:38:33Z">
+    <test name="validating" duration-ms="17606" started-at="2019-02-13T13:08:02Z" finished-at="2019-02-13T13:08:19Z">
+      <class name="academy.Valida">
+        <test-method status="PASS" signature="ind()[pri:0, instance:academy.Valida@13a5fe33]" name="ind" is-config="true" duration-ms="15064" started-at="2019-02-13T18:38:02Z" finished-at="2019-02-13T18:38:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucuopti.TestRun@67b92f0a]" name="feature" duration-ms="40027" started-at="2019-01-16T10:38:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-16T10:39:13Z">
+        </test-method> <!-- ind -->
+        <test-method status="PASS" signature="basepval()[pri:0, instance:academy.Valida@13a5fe33]" name="basepval" duration-ms="1881" started-at="2019-02-13T18:38:17Z" finished-at="2019-02-13T18:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepval -->
+        <test-method status="PASS" signature="clobro()[pri:0, instance:academy.Valida@13a5fe33]" name="clobro" is-config="true" duration-ms="599" started-at="2019-02-13T18:38:19Z" finished-at="2019-02-13T18:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clobro -->
+      </class> <!-- academy.Valida -->
+    </test> <!-- validating -->
+    <test name="login diff users" duration-ms="37446" started-at="2019-02-13T13:08:19Z" finished-at="2019-02-13T13:08:57Z">
+      <class name="academy.HomePe">
+        <test-method status="PASS" signature="ind()[pri:0, instance:academy.HomePe@2b9627bc]" name="ind" is-config="true" duration-ms="6154" started-at="2019-02-13T18:38:19Z" finished-at="2019-02-13T18:38:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ind -->
+        <test-method status="PASS" signature="basep(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:academy.HomePe@2b9627bc]" name="basep" duration-ms="18047" started-at="2019-02-13T18:38:26Z" data-provider="getdata" finished-at="2019-02-13T18:38:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login into site]]>
+                <![CDATA[vyshaktry@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V@1993tr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firstuser]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucuopti.TestRun@67b92f0a]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2019-01-16T10:39:13Z" finished-at="2019-01-16T10:39:13Z">
+        </test-method> <!-- basep -->
+        <test-method status="PASS" signature="basep(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:academy.HomePe@2b9627bc]" name="basep" duration-ms="12702" started-at="2019-02-13T18:38:44Z" data-provider="getdata" finished-at="2019-02-13T18:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vyshghfak6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V@1993tr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[seocnduser]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucuopti.TestRun -->
-    </test> <!-- validating -->
+        </test-method> <!-- basep -->
+        <test-method status="PASS" signature="clobro()[pri:0, instance:academy.HomePe@2b9627bc]" name="clobro" is-config="true" duration-ms="513" started-at="2019-02-13T18:38:56Z" finished-at="2019-02-13T18:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clobro -->
+      </class> <!-- academy.HomePe -->
+    </test> <!-- login diff users -->
   </suite> <!-- Suite -->
 </testng-results>

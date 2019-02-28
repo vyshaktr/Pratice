@@ -18,6 +18,7 @@ public class Homep extends Base {
 	public void basep(String username,String pass,String text) throws IOException {
 		driver = inidriver();
 		driver.get("https://www.myntra.com/");
+		System.out.println("site is opening");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		LandPag L = new LandPag(driver);
